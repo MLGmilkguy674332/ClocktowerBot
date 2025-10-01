@@ -1,0 +1,41 @@
+To Do:
+Check poll results and ping players
+Remove poll 2 hours after game start
+/reset_players - Removes player role from all players.
+/assign_players - Assigns player role to users in voice chat.
+/add_stoyteller (username) - Adds the storyteller role to the user and adds [ST] to their name.
+/remove_stoyteller (username) - Removes the storyteller role from the user and removes [ST] from their name.
+/mute_players - Mutes all players in the game.
+/unmute_players - Unmutes all players in the game.
+/ping_unvoted - Pings all users who have not voted in the poll.
+/request_player (username) - Sends a DM to the user requesting a private chat.
+/request_storyteller - Sendss a DM to the storyteller requesting a private chat.
+/purge_night - Deletes all night channels
+/unlock - Unlocks all channels.
+
+Extra Features:
+/randomize_storyteller - Randomly selects a storyteller from poll respondants.
+/set_timezone (timezone) - Sets the default timezone for the guild.
+/set_default_time (weekday) (hour) (minute) - Sets the default time for the poll creation.
+/ignore_user (username) - Ignores a user for polls.
+
+Miscellaneous:
+
+Done:
+/night - Moves players to private night channels and locks public channels.
+/townsquare - Moves players to the town square, unlocks channels, and deletes night channels.
+/set_player_role (role) - Sets the player role to the specified role ID.
+/set_storyteller_role (role) - Sets the storyteller role to the specified role ID.
+/set_night_category (category) - Sets the night category to the specified category ID.
+/set_townsquare (channel) - Sets the town square channel to the specified channel ID.
+/set_public_category (category) - Sets the public category to the specified category ID.#
+Make /night, /townsquare role and category ids configurable.
+Make /night, /townsquare error messages specify what is misconfigured.
+Add storyteller only restrictions to all commands.
+/set_poll_channel (channel_id) - Sets the poll channel to the specified channel ID.
+/set_game_chat (channel_id) - Sets the game chat channel to the specified channel ID.
+/clear_game_chat - Clears the game chat.
+/create_poll (weekday) (hour) (minute) - Creates a poll for the next game session. (default to saturday 20:00))
+
+Testing Notes:
+/night - do not make night channels for storytellers

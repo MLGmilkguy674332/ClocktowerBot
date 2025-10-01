@@ -1,0 +1,20 @@
+{
+  "1307787117128187905": {
+    "player_role_id": 1391090861776961596,
+    "storyteller_role_id": 1391091032438866020,
+    "public_category_id": 1391089633051414639,
+    "townsquare_channel_id": 1391089678106497188,
+    "night_category_id": 1391089597353562252,
+    "game_chat_channel_id": 1391210705151070209,
+    "poll_channel_id": 1386125571104309323
+  },
+  "1297225833387393025": {
+    "player_role_id": 1318618289953443890,
+    "night_category_id": 1297226106025541742,
+    "storyteller_role_id": 1297226316483006645,
+    "public_category_id": 1297225833387393027,
+    "game_chat_channel_id": 1342608414387474523,
+    "poll_channel_id": 1317887833964544031,
+    "townsquare_channel_id": 1297236259491676170
+  }
+}
